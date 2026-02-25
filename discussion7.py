@@ -108,7 +108,7 @@ def write_summary_csv(out_filename, avg_prices):
 
         for key, value in avg_prices:
             writer.writerow([key[0], key[1], value])
-        return key
+        return
 
 ###############################################################################
 ##### UNIT TESTS (Do not modify the code below!)
